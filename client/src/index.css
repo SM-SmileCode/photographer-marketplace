@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "./styles/tailwindUtilities.css";
+
+/* Hide scrollbars globally while preserving scroll behavior */
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge Legacy */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.form-label {
+  @apply block text-sm font-semibold mb-2;
+}
+.form-input {
+  @apply w-full rounded-lg border bg-white px-4 py-2.5 text-sm outline-none;
+}
+
+.form-config {
+  @apply flex flex-wrap gap-2;
+}
+.form-config-label {
+  @apply inline-flex items-center gap-2 rounded-full border bg-white px-3 py-2 text-sm;
+}
+
+.form-btn {
+  @apply rounded-full px-6 py-2.5 text-sm font-semibold;
+}
+.heading {
+  @apply text-xs uppercase tracking-[0.12em];
+}
+.heading-value {
+  @apply mt-1 text-lg font-semibold capitalize;
+}
+
+.bioExtraInfo {
+  @apply rounded-full border border-[var(--line)] bg-white px-3 py-1 text-[var(--text)];
+}
+.profile-section-title {
+  @apply mb-3 border-b border-[var(--line)] pb-2 text-base font-bold tracking-wide text-[var(--text)];
+}
+
+.avatar-top-rings {
+  @apply overflow-hidden rounded-full bg-white shadow-[0_8px_14px_rgba(15,23,42,0.25)];
+}
+

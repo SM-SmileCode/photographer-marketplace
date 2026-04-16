@@ -1,0 +1,45 @@
+export const EVENT_TYPES = [
+  "wedding",
+  "birthday",
+  "prewedding",
+  "corporate",
+  "babyshoot",
+  "product",
+  "travel",
+  "other",
+];
+
+export const SERVICES = [
+  "photography",
+  "videography",
+  "drone",
+  "album",
+  "reels",
+];
+
+export const PROFILE_EDITABLE_FIELDS = [
+  "businessName",
+  "bio",
+  "city",
+  "state",
+  "address",
+  "location",
+  "experienceYears",
+  "profileImageUrl",
+  "coverImageUrl",
+  "portfolioImages",
+  "eventTypes",
+  "customEventTypes",
+  "services",
+  "customServices",
+  "startingPrice",
+  "currency",
+  "responseTimeMinutes",
+  "acceptanceRate",
+  "serviceRadiusKm",
+  "serviceAreas",
+  "languages",
+  "instagramUrl",
+  "websiteUrl",
+  "verificationEvidence",
+];

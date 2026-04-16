@@ -1,0 +1,79 @@
+@layer components {
+  /* Card & Container Styles */
+  .card-surface {
+    @apply rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5;
+  }
+
+  .card-white {
+    @apply rounded-xl border border-[var(--line)] bg-white p-4;
+  }
+
+  .card-hero {
+    @apply rounded-3xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-[0_20px_60px_-35px_rgba(31,41,55,0.35)];
+  }
+
+  /* Text & Label Styles */
+  .label-uppercase {
+    @apply text-xs font-semibold tracking-[0.1em] text-[var(--muted)] uppercase;
+  }
+
+  .label-uppercase-lg {
+    @apply text-xs font-semibold tracking-[0.14em] text-[var(--muted)] uppercase;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    @apply rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-hover)];
+  }
+
+  .btn-secondary {
+    @apply rounded-full border border-[var(--line)] px-4 py-2 text-sm font-semibold text-[var(--text)] transition-colors hover:bg-[#F2EEDF];
+  }
+
+  .btn-small {
+    @apply rounded-full px-3 py-1 text-xs font-semibold;
+  }
+
+  /* Badge & Tag Styles */
+  .badge-status {
+    @apply rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+
+  .badge-tag {
+    @apply rounded-full border border-[var(--line)] bg-white px-3 py-1 text-[var(--text)];
+  }
+
+  /* Form Input Styles */
+  .input-base {
+    @apply w-full rounded-xl border border-[var(--line)] bg-white px-4 py-3 text-sm outline-none transition focus:border-[var(--accent)] focus:ring-2 focus:ring-[#0F766E]/20;
+  }
+
+  /* Status Badge Variants */
+  .badge-pending {
+    @apply bg-amber-50 text-amber-700;
+  }
+
+  .badge-accepted {
+    @apply bg-emerald-50 text-emerald-700;
+  }
+
+  .badge-rejected {
+    @apply bg-gray-100 text-gray-700;
+  }
+
+  .badge-confirmed {
+    @apply bg-emerald-50 text-emerald-700;
+  }
+
+  .badge-in-review {
+    @apply bg-amber-50 text-amber-700;
+  }
+
+  .badge-high-priority {
+    @apply bg-red-50 text-red-700;
+  }
+
+  .badge-medium-priority {
+    @apply bg-amber-50 text-amber-700;
+  }
+}
