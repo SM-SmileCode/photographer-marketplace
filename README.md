@@ -8,7 +8,7 @@ A full-stack marketplace platform that connects customers with professional phot
 
 | Service | URL |
 |---|---|
-| Frontend | [Firebase Hosting] |
+| Frontend | https://shotsphere-001.web.app |
 | Backend API | https://shotspherehub.onrender.com |
 
 ---
